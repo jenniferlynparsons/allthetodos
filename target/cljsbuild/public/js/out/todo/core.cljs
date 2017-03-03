@@ -127,7 +127,9 @@
 (defn home-page []
   [:div [:h2 "Welcome to todo"]
    [:div [:a {:href "/about"} "go to about page"]]
-   [:div [:input {:placeholder "add a to do item"}]]])
+   [:div [:input {:placeholder "add a to do item"}]]
+  ;  aaaaaah! this! is! important!
+   [todo-app]])
 
 
 
