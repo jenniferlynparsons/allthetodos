@@ -24,3 +24,35 @@ clicking plus
 - adds the todo to a list with a checkbox and text
 - clears the input
 - writes the item & status to crud
+
+
+What's the util.cljc for?
+
+miffy [4:17 PM]
+It’s code that can be used in both ClojureScript and Clojure
+It’s particularly useful if you have functions for constructing and processing data structures that get shared between both ends, for instance, validation code
+
+[:div [:input {:placeholder "add a to do item"}]]
+
+
+http://udayv.com/clojure/2014/08/19/json-web-services-with-clojure/
+
+https://clojuredocs.org
+
+Yea no just use an atom
+Leave a note that says
+"this should really be a database"
+
+https://clojure.org/reference/atoms
+
+
+http://stackoverflow.com/questions/22291076/using-swap-to-merge-append-to-a-nested-map-in-a-clojure-atom
+Let's say I have an atom that contains a map like this:
+{:count 0 :map hash-map}
+How can I use swap to merge another key-value pair onto :map?
+(swap! my-atom assoc-in [:map :new-key] value)
+
+
+https://dhruvp.github.io/2015/02/23/mailchimip-clojure/
+
+http://escherize.com/cljsfiddle/
