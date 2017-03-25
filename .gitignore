@@ -1,1 +1,93 @@
-Leiningen.gitignore
+*~
+bin
+releases
+
+### Clojure ###
+_figwheel.edn
+.idea
+*.iml
+.repl
+out/
+sidecar/dev-resources/public/js
+example/resources/public/js/compiled
+example/resources/public/js/out
+example/resources/public/js/example.js
+example/resources/public/js/prod
+example/figwheel_server_log.txt
+example/figwheel_server.log
+example/node_modules
+example/server_out
+example/target
+examples/node-example/node_modules
+examples/node-example/figwheel_server.log
+examples/node-example/target
+support/target
+sidecar/target
+plugin/target
+/target
+/lib
+/classes
+/checkouts
+/out
+/.repl
+pom.xml
+pom.xml.asc
+\#*\#
+.\#*
+*.jar
+*.class
+.lein-deps-sum
+.lein-failures
+.lein-plugins
+.lein-repl-history
+.nrepl-port
+.lein-classpath
+config.ru
+
+figwheel_server.log
+*~
+*-init.clj
+sidecar/figwheel_server.log
+
+
+### OSX ###
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon must end with two \r
+Icon
+
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+
+### Leiningen ###
+pom.xml
+pom.xml.asc
+*jar
+/lib/
+/classes/
+/target/
+/checkouts/
+.lein-deps-sum
+.lein-repl-history
+.lein-plugins/
+.lein-failures
+.nrepl-port
