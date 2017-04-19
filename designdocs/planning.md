@@ -24,7 +24,7 @@ general controls
 2nd iteration
 - jquery
 - node
-- object storage
+- object backend storage
 
 3rd iteration
 - angular
