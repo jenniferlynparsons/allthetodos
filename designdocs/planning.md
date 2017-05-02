@@ -27,7 +27,7 @@ general controls
 - object backend storage
 
 3rd iteration
-- angular
+- react
 - node/express
 - mongodb database
 
